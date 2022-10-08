@@ -1,0 +1,19 @@
+@import '~bootstrap/scss/bootstrap';
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+
+body{
+  line-height: 1.5;
+  font-weight: 400;
+}
+a{
+  padding:8px;
+  color:#fff;
+}
+
+ul{
+  list-style:none;
+}
+
+.fa-sharp{
+  color:#fff;
+}
