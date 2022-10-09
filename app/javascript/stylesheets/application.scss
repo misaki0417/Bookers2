@@ -5,7 +5,7 @@ body{
   line-height: 1.5;
   font-weight: 400;
 }
-a{
+a, .nav-link{
   padding:8px;
   color:#fff;
 }
@@ -14,6 +14,7 @@ ul{
   list-style:none;
 }
 
-.fa-sharp{
-  color:#fff;
+.btn-block{
+  margin:0px 15px;
 }
+
