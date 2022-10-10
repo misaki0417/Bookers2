@@ -21,14 +21,14 @@
       <div class="collapse navbar-collapse" id="Navbar">
       <ul class="navbar-nav ml-auto">
        <% if user_signed_in? %>
-       <li class="nav-item"><a class="nav-link" href="ures">Users</a></li>
-       <li class="nav-item"><a class="nav-link" href="books">Books</a></li>
-       <li class="nav-item"><%= link_to "Log out", destroy_user_session_path,method: :delete %></li>
+       <li class="nav-item"><a class="nav-link" href="#">Users</a></li>
+       <li class="nav-item"><a class="nav-link" href="#">Books</a></li>
+       <li class="nav-item"><a class="nav-link" href="/users" data-method="delate"></a></li>
        <% else %>
        <li class="nav-item"><a class="nav-link fa-sharp fa-solid fa-house-heart" href="#">Home</a></li>
-       <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-       <li class="nav-item"><a class="nav-link" href="#">Sign up</a></li>
-       <li class="nav-item"><a class="nav-link" href="#">Log in</a></li>
+       <li class="nav-item"><a class="nav-link" href="homes/about">About</a></li>
+       <li class="nav-item"><a class="nav-link" href="/users/sign_up">Sign up</a></li>
+       <li class="nav-item"><a class="nav-link" href="/users/sign_in">Log in</a></li>
        <% end %>
        </ul>
       </div>
